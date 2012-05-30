@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20041C2B157589FF00AA8138 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20041C2A157589FF00AA8138 /* Cocoa.framework */; };
+		20041C35157589FF00AA8138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20041C33157589FF00AA8138 /* InfoPlist.strings */; };
+		20041C37157589FF00AA8138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20041C36157589FF00AA8138 /* main.m */; };
+		20041C3B157589FF00AA8138 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20041C39157589FF00AA8138 /* Credits.rtf */; };
+		20041C3E157589FF00AA8138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20041C3D157589FF00AA8138 /* AppDelegate.m */; };
+		20041C4115758A0000AA8138 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20041C3F15758A0000AA8138 /* MainMenu.xib */; };
+		20041C4815758A4900AA8138 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20041C4715758A4900AA8138 /* IOKit.framework */; };
+		20041C4B1575915600AA8138 /* IOKitPowerSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20041C4A1575915600AA8138 /* IOKitPowerSourceInfo.m */; };
+		20041C4E1575916D00AA8138 /* IORegPowerSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20041C4D1575916D00AA8138 /* IORegPowerSourceInfo.m */; };
+		20041C511575919C00AA8138 /* PowerSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20041C501575919C00AA8138 /* PowerSourceInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20041C26157589FF00AA8138 /* Battery Info App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery Info App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20041C2A157589FF00AA8138 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		20041C2D157589FF00AA8138 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		20041C2E157589FF00AA8138 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		20041C2F157589FF00AA8138 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20041C32157589FF00AA8138 /* BatteryInfoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatteryInfoApp-Info.plist"; sourceTree = "<group>"; };
+		20041C34157589FF00AA8138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20041C36157589FF00AA8138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20041C38157589FF00AA8138 /* BatteryInfoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BatteryInfoApp-Prefix.pch"; sourceTree = "<group>"; };
+		20041C3A157589FF00AA8138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		20041C3C157589FF00AA8138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20041C3D157589FF00AA8138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20041C4015758A0000AA8138 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20041C4715758A4900AA8138 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		20041C491575915600AA8138 /* IOKitPowerSourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitPowerSourceInfo.h; sourceTree = "<group>"; };
+		20041C4A1575915600AA8138 /* IOKitPowerSourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOKitPowerSourceInfo.m; sourceTree = "<group>"; };
+		20041C4C1575916D00AA8138 /* IORegPowerSourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IORegPowerSourceInfo.h; sourceTree = "<group>"; };
+		20041C4D1575916D00AA8138 /* IORegPowerSourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IORegPowerSourceInfo.m; sourceTree = "<group>"; };
+		20041C4F1575919C00AA8138 /* PowerSourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerSourceInfo.h; sourceTree = "<group>"; };
+		20041C501575919C00AA8138 /* PowerSourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerSourceInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20041C23157589FF00AA8138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20041C4815758A4900AA8138 /* IOKit.framework in Frameworks */,
+				20041C2B157589FF00AA8138 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20041C1B157589FF00AA8138 = {
+			isa = PBXGroup;
+			children = (
+				20041C30157589FF00AA8138 /* BatteryInfoApp */,
+				20041C29157589FF00AA8138 /* Frameworks */,
+				20041C27157589FF00AA8138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20041C27157589FF00AA8138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20041C26157589FF00AA8138 /* Battery Info App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20041C29157589FF00AA8138 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20041C4715758A4900AA8138 /* IOKit.framework */,
+				20041C2A157589FF00AA8138 /* Cocoa.framework */,
+				20041C2C157589FF00AA8138 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20041C2C157589FF00AA8138 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20041C2D157589FF00AA8138 /* AppKit.framework */,
+				20041C2E157589FF00AA8138 /* CoreData.framework */,
+				20041C2F157589FF00AA8138 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		20041C30157589FF00AA8138 /* BatteryInfoApp */ = {
+			isa = PBXGroup;
+			children = (
+				20041C3C157589FF00AA8138 /* AppDelegate.h */,
+				20041C3D157589FF00AA8138 /* AppDelegate.m */,
+				20041C3F15758A0000AA8138 /* MainMenu.xib */,
+				20041C31157589FF00AA8138 /* Supporting Files */,
+				20041C491575915600AA8138 /* IOKitPowerSourceInfo.h */,
+				20041C4A1575915600AA8138 /* IOKitPowerSourceInfo.m */,
+				20041C4C1575916D00AA8138 /* IORegPowerSourceInfo.h */,
+				20041C4D1575916D00AA8138 /* IORegPowerSourceInfo.m */,
+				20041C4F1575919C00AA8138 /* PowerSourceInfo.h */,
+				20041C501575919C00AA8138 /* PowerSourceInfo.m */,
+			);
+			path = BatteryInfoApp;
+			sourceTree = "<group>";
+		};
+		20041C31157589FF00AA8138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20041C32157589FF00AA8138 /* BatteryInfoApp-Info.plist */,
+				20041C33157589FF00AA8138 /* InfoPlist.strings */,
+				20041C36157589FF00AA8138 /* main.m */,
+				20041C38157589FF00AA8138 /* BatteryInfoApp-Prefix.pch */,
+				20041C39157589FF00AA8138 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20041C25157589FF00AA8138 /* BatteryInfoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20041C4415758A0000AA8138 /* Build configuration list for PBXNativeTarget "BatteryInfoApp" */;
+			buildPhases = (
+				20041C22157589FF00AA8138 /* Sources */,
+				20041C23157589FF00AA8138 /* Frameworks */,
+				20041C24157589FF00AA8138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryInfoApp;
+			productName = BatteryInfoApp;
+			productReference = 20041C26157589FF00AA8138 /* Battery Info App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20041C1D157589FF00AA8138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = progsign.net;
+			};
+			buildConfigurationList = 20041C20157589FF00AA8138 /* Build configuration list for PBXProject "BatteryInfoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20041C1B157589FF00AA8138;
+			productRefGroup = 20041C27157589FF00AA8138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20041C25157589FF00AA8138 /* BatteryInfoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20041C24157589FF00AA8138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20041C35157589FF00AA8138 /* InfoPlist.strings in Resources */,
+				20041C3B157589FF00AA8138 /* Credits.rtf in Resources */,
+				20041C4115758A0000AA8138 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20041C22157589FF00AA8138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20041C37157589FF00AA8138 /* main.m in Sources */,
+				20041C3E157589FF00AA8138 /* AppDelegate.m in Sources */,
+				20041C4B1575915600AA8138 /* IOKitPowerSourceInfo.m in Sources */,
+				20041C4E1575916D00AA8138 /* IORegPowerSourceInfo.m in Sources */,
+				20041C511575919C00AA8138 /* PowerSourceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20041C33157589FF00AA8138 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20041C34157589FF00AA8138 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20041C39157589FF00AA8138 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20041C3A157589FF00AA8138 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20041C3F15758A0000AA8138 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20041C4015758A0000AA8138 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20041C4215758A0000AA8138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20041C4315758A0000AA8138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20041C4515758A0000AA8138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryInfoApp/BatteryInfoApp-Prefix.pch";
+				INFOPLIST_FILE = "BatteryInfoApp/BatteryInfoApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Battery Info App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20041C4615758A0000AA8138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryInfoApp/BatteryInfoApp-Prefix.pch";
+				INFOPLIST_FILE = "BatteryInfoApp/BatteryInfoApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Battery Info App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20041C20157589FF00AA8138 /* Build configuration list for PBXProject "BatteryInfoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20041C4215758A0000AA8138 /* Debug */,
+				20041C4315758A0000AA8138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20041C4415758A0000AA8138 /* Build configuration list for PBXNativeTarget "BatteryInfoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20041C4515758A0000AA8138 /* Debug */,
+				20041C4615758A0000AA8138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20041C1D157589FF00AA8138 /* Project object */;
+}
